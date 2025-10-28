@@ -1,0 +1,60 @@
+@ -0,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon - Banner Interactivo</title>
+
+  <!-- Importar model-viewer -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+  <!-- Importar hoja de estilos -->
+  <link rel="stylesheet" href="/src/css/main.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Pokémon</h1>
+  </header>
+
+  <!-- Modelo 3D -->
+  <model-viewer
+    auto-rotate
+    ar
+    alt="mimikyu"
+    src="./src/models/mimikyu.glb"
+    environment-image="./src/environments/mundo.hdr"
+    skybox-image="./src/environments/mundo.hdr"
+    shadow-intensity="1"
+    camera-controls
+    touch-action="pan-y"
+    max-camera-orbit="auto 100deg auto">
+  </model-viewer>
+
+  <!-- Texto descriptivo -->
+ <div class="info">
+  <h2>¿Listo para la aventura?</h2>
+  <p>
+    <b>Pokémon</b> es una serie anime japonesa creada por <b>Satoshi Tajiri</b> y producida por 
+    <b>The Pokémon Company</b> y <b>OLM, Inc.</b>. Desde su estreno en 1997, ha cautivado a generaciones con su universo 
+    lleno de criaturas llamadas Pokémon, que los entrenadores capturan y entrenan para competir en batallas amistosas.
+  </p>
+
+  <p>
+    La historia sigue a <b>Ash Ketchum</b>, un joven entrenador de Pueblo Paleta, acompañado por su inseparable 
+    <b>Pikachu</b>. Juntos recorren regiones como Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola y Galar, enfrentando 
+    torneos y rivales, mientras luchan contra el <b>Equipo Rocket</b>.
+  </p>
+
+  <p>
+    Con más de <b>25 temporadas</b> y <b>1,200 episodios</b>, Pokémon se ha consolidado como una de las series más queridas 
+    del anime, celebrando valores como la amistad, el esfuerzo y la superación personal.
+  </p>
+</div>
+
+
+</body>
+</html>
