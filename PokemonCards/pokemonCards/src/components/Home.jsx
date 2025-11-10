@@ -10,27 +10,27 @@ export default function Home() {
       </header>
 
       {/* Modelo 3D en pantalla completa */}
-      <model-viewer
-        auto-rotate
-        ar
-        alt="pokedex"
-       src="../src/models/pokedex1.glb"
-        environment-image="./src/environments/mundo1.hdr"
-        skybox-image="./src/environments/mundo1.hdr"
-        shadow-intensity="1"
-        camera-controls
-        touch-action="pan-y"
-        max-camera-orbit="auto 100deg auto"
-        style={{
-          width: "100vw",
-          height: "100vh",
-          position: "absolute",
-          top: 0,
-          left: 0,
-          zIndex: 0,
-          background: "black",
-        }}
-      ></model-viewer>
+        <model-viewer
+          auto-rotate
+          ar
+          alt="pokedex"
+          src="src/models/mimikyu.glb"
+            environment-image="/src/environments/mundo.hdr"
+            skybox-image="/src/environments/mundo1.hdr"
+            shadow-intensity="1"
+            camera-controls
+            touch-action="pan-y"
+            max-camera-orbit="auto 100deg auto"
+            style={{
+              width: "100vw",
+              height: "100vh",
+              position: "absolute",
+              top: 0,
+              left: 0,
+              zIndex: 0,
+              background: "black",
+          }}
+        ></model-viewer>
 
         <div>
       <div className="info">

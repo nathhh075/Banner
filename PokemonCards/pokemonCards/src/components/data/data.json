@@ -6,7 +6,7 @@
       "hp": 70,
       "tipo_energia_principal": "Fantasma",
       "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/778.png",
-      "modelo": "src/models/mimikyu.glb"
+      "modelo": "src/models/mimikyu2.glb"
     },
     "ataque_principal": {
       "nombre": "Shadow Hit",
@@ -20,7 +20,7 @@
       "hp": 60,
       "tipo_energia_principal": "Eléctrico",
       "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
-      "modelo": "src/models/pikachu.glb"
+      "modelo": "src/models/pikachu2.0.glb"
     },
     "ataque_principal": {
       "nombre": "Thunder Shock",
