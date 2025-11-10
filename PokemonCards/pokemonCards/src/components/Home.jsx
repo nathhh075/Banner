@@ -28,7 +28,7 @@ export default function Home() {
         auto-rotate
         ar
         alt="pokedex"
-        src="src/models/mimikyu.glb"
+        src="src/models/pokedex1.glb"
         environment-image="/src/environments/mundo.hdr"
         skybox-image="/src/environments/mundo1.hdr"
         shadow-intensity="1"
